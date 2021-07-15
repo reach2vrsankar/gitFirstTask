@@ -1,0 +1,32 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.sec{
+    min-height: 100vh;
+    background-color:#000000;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+.sec_right_bottom{
+    min-height: 70vh;
+    width: 105%;
+    height: 70vh;
+    overflow: auto;
+    overflow-x: hidden;    
+}
+.create_playlist,span{
+    font-size: medium;
+}
+.liked_song{
+    background-image: linear-gradient(to right bottom,blue,white);
+}
+.song_icon{
+    position: absolute;
+    top:-12px;left:5px;
+    font-size:48px;
+    color: black;
+    
+}
